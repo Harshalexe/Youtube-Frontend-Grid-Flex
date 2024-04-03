@@ -1,0 +1,44 @@
+<!-- Three types of display: block element eg.p tag taking whole line, inline eg.span and inline-block eg.setting width-->
+    <!-- Div and para are block elements-->
+    <!-- Div is very useful to seperate things and can use as block elements in specific div -->
+    <!-- <div style="displau:grid;
+        grid-template-column:100px 1fr"-->
+        <!--Object fit and object position are two which can use to fit images and other things as well-->
+    <!--   .video_info {
+            display: inline-block;
+            width: 240px;
+        }
+
+        .pro {
+            vertical-align: top;
+            display: inline-block;
+            width: 50px;
+        }
+
+        .pro1 {
+            margin-top: 0;
+            width: 40px;
+            height: 40px;
+            border-radius: 50px;
+
+            Instead of all this do this:
+             .div2 {
+            display: grid;
+            grid-template-columns: 50px 1fr;
+            margin-left: 5px;
+            margin-top: 7px;
+        }
+        }-->
+
+        <!-- Flex is more flexible then grid because grid is defined first with columns whereas in flex its not need.
+             you can prefer the flexbox and grid code-->
+
+flex-shrink:0 it will not shrink if we adjust 
+width:0 then it will shrink 
+learn about z index and position fixed,absoulte and relative which is most important
+
+position:
+1. fixed : which is fixed on window not with page
+2. relative: its move with page not stick to the window
+3. absolute: it can be use inside fixed and relative, it can be anywhere on page, so if it is in relative then it can be anywhere in that block.
+4. z-index: higher the number it will above other layers 

@@ -1,0 +1,105 @@
+.search-bar {
+    border: none;
+    flex: 1;
+    height: 40px;
+    border-radius: 2px;
+    border-color: rgb(145, 144, 144);
+    border-width: 1px;
+    border-style: solid;
+    padding-left: 10px;
+    box-shadow: inset 1px 2px 3px rgba(0,0,0,0.05);
+}
+.search-bar::placeholder {
+    font-size: 20px;
+}
+.header {
+    top:0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to bottom, rgb(252, 251, 251), rgba(249, 247, 247, 0.007));
+    /* background-color: white; */
+    z-index: 2;
+}
+.left-h {
+    width: 250px;
+}
+.licons1 {
+    margin-left: 20px;
+    height: 30px;
+    margin-right: 20px;
+    
+}
+.licons2 {
+    height: 30px;
+}
+.center-h {
+    margin-left: 40px;
+    margin-right: 70px;
+    max-width: 500px;
+    flex:1;
+    display: flex;
+    align-items: center;
+}
+.voice-button {
+    margin-left: 10px;
+    border-radius: 40px;
+    border: none;
+}
+.cicons1 {
+    height: 36px;
+    border: 1px;
+}
+.cicons2 {
+    height: 36px;
+    border: 1px;
+}
+.right-h {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.ricons {
+    position: relative;
+    height: 40px;
+    cursor: pointer;
+}
+
+/* Hover start*/
+
+button {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+button .search-hover {
+    margin-top: 50px;
+    background-color: rgb(129, 129, 129);
+    color: white;
+    border-radius: 2px;
+    padding: 8px 4px 8px 4px;
+    position:absolute;
+    opacity: 0;
+    transition: 0.4;
+    white-space: nowrap;
+}
+
+.button-search:hover .search-hover, .voice-button:hover .search-hover{
+    opacity: 1;
+}
+
+/* hover ends */
+
+.ricons1 {
+    height: 40px;
+    width: 40px;
+    border-radius: 54px;
+    margin-right: 30px;
+    cursor: pointer;
+}

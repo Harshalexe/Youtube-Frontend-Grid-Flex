@@ -1,0 +1,31 @@
+.side-bar {
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top:70px;
+    left: 0;
+    bottom: 0;
+    width: 70px;
+    padding-top: 10px; 
+    z-index: 1; 
+}
+.sicons {
+    height: 30px;
+    width: 30px;
+}
+.side-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.side-div div {
+    padding-top: 5px;
+    font-family: Roboto,Arial;
+    font-size: 10px;
+}
+.side-div:hover {
+    background-color: rgb(192, 190, 190);
+}
